@@ -52,7 +52,7 @@ p{
 	height: 10%;
 	width: 100%;
 	display: flex;
-	font-family: 'Sunshiney', cursive;
+	font-family: 'Neucha', cursive;
 }
 
 .image {
@@ -137,5 +137,4 @@ p{
 	.center{
 	justify-content: center;
 	}
-
 }
