@@ -23,7 +23,7 @@ p{
 	height:10%;
 	width: calc(100%/3);
 	display: flex;
-	font-family: 'Liu Jian Mao Cao', cursive;
+	font-family: 'Covered By Your Grace', cursive;
 	font-size: 30px;
 }
 
@@ -105,7 +105,7 @@ p{
 	display: none;
 }
 
-@media only screen and (max-width: 880px){
+@media only screen and (max-width: 1000px){
 	.rows1{
 		display: block;
 		width: 100%;
