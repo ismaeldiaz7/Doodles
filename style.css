@@ -10,18 +10,16 @@ body, html{
 	height: 10%;
 	width: 100%;
 	display: flex;
-	background-color: #000000;
-}
-p{
-	color: white;
+	background-color: #420FF1;
 }
 
-.center{
-	justify-content: center;
+p{
+	color: white;
+	cursor: url(Image Folder/image.jpg);
 }
 
 .heading{
-	height:10%;
+	height:100%;
 	width: calc(100%/3);
 	display: flex;
 	font-family: 'Covered By Your Grace', cursive;
@@ -35,14 +33,7 @@ p{
 	
 }
 
-.rows1{
-	height: 50%;
-	width: 100%;
-	display: flex;
-	background-color:#000000;
-}
-
-.rows2{
+.rows{
 	height: 50%;
 	width: 100%;
 	display: flex;
@@ -50,10 +41,11 @@ p{
 }
 
 .text-box{
-	height: 10%;
+	height: 12%;
 	width: 100%;
 	display: flex;
 	font-family: 'Neucha', cursive;
+	font-size: 20px;
 }
 
 .image {
@@ -72,7 +64,6 @@ p{
 	width: calc(100%/3);
 	visibility: hidden;
 	background-color: #5A0101;
-	font-size: 22px;
 }
 
 .box3{
@@ -80,7 +71,6 @@ p{
 	width: calc(100%/3);
 	visibility: hidden;
 	background-color: #5947B0;
-	font-size: 22px;
 }
 
 .box5{
@@ -88,16 +78,19 @@ p{
 	width: calc(100%/3);
 	visibility: hidden;
 	background-color: #8B0000;
-	font-size: 22px;
 }
 
 .box{
 	height: 100%;
 	width: calc(100%/3);
 	visibility: hidden;
-	background-color: #4682B4;
-	font-size: 22px;
+	background-color: #0361F1;
 }
+
+.url {
+	cursor: url(Image-Folder/image.jpg), auto;
+}
+
 .toggle{
 	visibility: visible;
 }
@@ -106,8 +99,15 @@ p{
 	display: none;
 }
 
+.center{
+	justify-content: center;
+}
+
 @media only screen and (max-width: 1000px){
-	.rows1{
+	.heading{
+		font-size: 25px;
+	}
+	.rows{
 		display: block;
 		width: 100%;
 		height: auto;
@@ -129,13 +129,7 @@ p{
 		width: 100%;
 	}
 	
-	.rows2{
-		display: block;
-		width: 100%;
-		height: auto;
-	}
-	
 	.center{
-	justify-content: center;
+		justify-content: center;
 	}
 }

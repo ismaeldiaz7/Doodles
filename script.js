@@ -41,15 +41,15 @@ function toggleAppearsmile(){
 }
 
 function changeHiddenboy(){
-	m.innerHTML = "This image to me means thought, and confusion.";
+	m.innerHTML = "This image to me means thought, and confusion (ง ͡⎚. ͡⎚)ง";
 }
 
 function changeHiddenquack(){
-	n.innerHTML = "QUACK! It's just a duck, appriciate it! ಠ ͜ʖಠ.";
+	n.innerHTML = "QUACK! It's just a duck, appriciate it! ಠ ͜ʖಠ";
 }
 
 function changeHiddencrazy(){
-	o.innerHTML = "It's just a mental image of some teens today, confused and 'deed'.";
+	o.innerHTML = "It's just a mental image of some teens today, confused and 'deed' ಠ_ಠ";
 }
 
 function changeHiddenflower(){
