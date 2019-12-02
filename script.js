@@ -17,6 +17,11 @@ var p = document.getElementById("dis4");
 var q = document.getElementById("dis5");
 var r = document.getElementById("dis6");
 
+
+function resetAll(){
+	window.location.reload();
+}
+
 function toggleAppearboy(){
 	g.classList.toggle("toggle");
 }
