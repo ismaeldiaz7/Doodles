@@ -10,7 +10,6 @@ body{
 	height: 8%;
 	width: 100%;
 	display: flex;
-	background-color: #420FF1;
 }
 
 p{
@@ -24,7 +23,7 @@ p{
 	width: calc(100%/3);
 	display: flex;
 	font-family: 'Covered By Your Grace', cursive;
-	font-size: 30px;
+	font-size: 29px;
 }
 
 .big-box{
@@ -46,7 +45,7 @@ p{
 	width: 100%;
 	display: flex;
 	font-family: 'Neucha', cursive;
-	font-size: 20px;
+	font-size: 19px;
 }
 
 .image {
@@ -61,33 +60,17 @@ p{
 	display: flex;
 }
 
-.box1{
-	height: 100%;
-	width: calc(100%/3);
-	visibility: hidden;
-	background-color: #5A0101;
-}
-
-.box3{
-	height: 100%;
-	width: calc(100%/3);
-	visibility: hidden;
-	background-color: #5947B0;
-}
-
-.box5{
-	height: 100%;
-	width: calc(100%/3);
-	visibility: hidden;
-	background-color: #8B0000;
-}
-
 .box{
 	height: 100%;
 	width: calc(100%/3);
 	visibility: hidden;
-	background-color: #0361F1;
 }
+
+.violet{background-color: #420FF1;}
+.burgandy{background-color: #5A0101;}
+.blue{background-color: #0361F1;}
+.dark-purple{background-color: #5947B0;}
+.red{background-color: #8B0000;}
 
 .url {
 	cursor: url("Image-Folder/image.jpg"), auto;
@@ -113,6 +96,12 @@ p{
 
 .button{
 	width: 4%;
+}
+
+p:hover{
+	cursor: url(Image Folder/image.jpg);
+	transform: scale(1.05, 1.05);
+	opacity: 0.8;
 }
 
 @media only screen and (max-width: 1000px){
